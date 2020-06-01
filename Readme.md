@@ -19,4 +19,4 @@ _Не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`, `package-lock.json`, `package.json`._
 
 ---
-[Обзор макета]: //Desktop-2.png
+[Обзор макета]: Desktop-2.png
