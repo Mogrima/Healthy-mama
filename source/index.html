@@ -15,9 +15,9 @@
     <nav class="nav header__nav">
       <button type="button"><span class="visually-hidden">открыть/закрыть меню</span></button>
       <ul class="nav__list">
-        <li class="nav__item"><a href="#" class="nav__link">Важность правильного питания</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Почему мы?</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Где заказать?</a></li>
+        <li class="nav__item"><a href="#reason" class="nav__link">Важность правильного питания</a></li>
+        <li class="nav__item"><a href="#features" class="nav__link">Почему мы?</a></li>
+        <li class="nav__item"><a href="#order-form" class="nav__link">Где заказать?</a></li>
       </ul>
     </nav>
   </header>
@@ -62,7 +62,7 @@
        </div>
      </div>
     </section>
-    <section class="reason">
+    <section id="reason" class="reason">
       <div class="reason__text">
         <h2 class="title title--white reason__title">Почему Вам нужно правильно питаться?</h2>
         <ul class="reason__list">
@@ -110,7 +110,7 @@
         </div>
       </div>
     </section>
-    <section class="features">
+    <section id="features" class="features">
       <h2 class="title features__title">Почему мамы выбирают нашу доставку?</h2>
       <ul class="features__list">
         <li class="features__item features__item--eco">
@@ -135,6 +135,30 @@
       <h2 class="title insta__title">Наш Instagram</h2>
       <p class="insta__text"><a class="insta__link" href="#">Подписывайтесь</a>, чтобы быть в курсе последних новостей</p>
     </section>
+    <section id="order-form" class="order-form">
+      <h2 class="visually-hidden">Форма заказа меню</h2>
+      <p class="title order-form__title">Хотите получить персональное меню?</p>
+      <p class="order-form__text">Оставьте заявку и наш оператор свяжется с Вами для уточнения деталей</p>
+      <form action="#" method="POST">
+        <label for="order-name" class="visually-hidden">Ваше имя</label>
+        <input id="order-name" class="order-form__input" type="text" name="name" placeholder="Ваше имя" required="">
+        <label for="order-phone" class="visually-hidden">Ваш телефон</label>
+        <input id="order-phone" class="order-form__input" type="tel" name="phone" placeholder="Ваш телефон" required="">
+        <button class="button order-form__button" type="submit" value="submit">Оформить заказ</button>
+      </form>
+    </section>
   </main>
+  <footer>
+    <a class="logo logo--white footer__logo" href="index.html">Здоровая мама</a>
+    <ul class="nav__list footer__nav">
+      <li class="nav__item"><a href="#reason" class="nav__link">Важность правильного питания</a></li>
+      <li class="nav__item"><a href="#features" class="nav__link">Почему мы?</a></li>
+      <li class="nav__item"><a href="#order-form" class="nav__link">Где заказать?</a></li>
+    </ul>
+    <ul class="footer__conditions">
+      <li class="footer__conditions__item"><a href="#" class="footer__conditions__link">Политика конфиденциальности</a></li>
+      <li class="footer__conditions__item"><a href="#" class="footer__conditions__link">Условия онлайн-использования</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
