@@ -7,17 +7,17 @@
     content="Доставка здорового питания для мам и будущих мам, составим для Вас персональное меню">
   <title>Доставка здорового питания для мам</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
   <header class="header">
-    <a class="logo header__logo" href="index.html">Здоровая мама</a>
+    <a class="link logo header__logo" href="index.html">Здоровая мама</a>
     <nav class="nav header__nav">
       <button type="button"><span class="visually-hidden">открыть/закрыть меню</span></button>
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#reason" class="nav__link">Важность правильного питания</a></li>
-        <li class="nav__item"><a href="#features" class="nav__link">Почему мы?</a></li>
-        <li class="nav__item"><a href="#order-form" class="nav__link">Где заказать?</a></li>
+      <ul class="same-list nav__list">
+        <li class="nav__item"><a class="link" href="#reason" class="nav__link">Важность правильного питания</a></li>
+        <li class="nav__item"><a class="link" href="#features" class="nav__link">Почему мы?</a></li>
+        <li class="nav__item"><a class="link" href="#order-form" class="nav__link">Где заказать?</a></li>
       </ul>
     </nav>
   </header>
@@ -26,10 +26,10 @@
      <div class="promo__text">
       <h1 class="promo__title">Доставка здорового питания для мам</h1>
       <p class="promo__desc">Правильный и вкусный рацион для Вас и вашего ребенка</p>
-      <a href="#" class="promo__button button">Оформить заказ</a>
+      <a href="#" class="link promo__button button">Оформить заказ</a>
      </div>
      <div class="promo__slider">
-       <ul class="slider">
+       <ul class="same-list slider">
          <li class="slider__item">
            <input type="radio" name="toggle" id="expectant" checked="">
            <label for="expectant">
@@ -65,7 +65,7 @@
     <section id="reason" class="reason">
       <div class="reason__text">
         <h2 class="title title--white reason__title">Почему Вам нужно правильно питаться?</h2>
-        <ul class="reason__list">
+        <ul class="same-list reason__list">
           <li class="reason__item">Здоровый ребенок</li>
           <li class="reason__item">Повышение иммунитета</li>
           <li class="reason__item">Поддержание фигуры</li>
@@ -83,7 +83,7 @@
     <section class="product">
       <h2 class="title product__title">Обязательные продукты для здорового питания:</h2>
       <div class="product__container">
-        <ul class="food-slider">
+        <ul class="same-list food-slider">
           <li class="food-slider__item food-slider__item--active">
             <h3 class="product__subtitle">Мясо</h3>
             <p class="product__desc">Крольчатина, телятина, индейка, курица без кожи. Мясные блюда ежедневно должны присутствовать в питании в тушеном, запеченном или вареном виде.</p>
@@ -112,7 +112,7 @@
     </section>
     <section id="features" class="features">
       <h2 class="title features__title">Почему мамы выбирают нашу доставку?</h2>
-      <ul class="features__list">
+      <ul class="same-list features__list">
         <li class="features__item features__item--eco">
           <h3 class="features__subtitle">Экологичность:</h3>
           <p class="features__text">продукты выращиваются без применения химии</p>
@@ -133,7 +133,7 @@
     </section>
     <section class="insta">
       <h2 class="title insta__title">Наш Instagram</h2>
-      <p class="insta__text"><a class="insta__link" href="#">Подписывайтесь</a>, чтобы быть в курсе последних новостей</p>
+      <p class="insta__text"><a class="link insta__link" href="#">Подписывайтесь</a>, чтобы быть в курсе последних новостей</p>
     </section>
     <section id="order-form" class="order-form">
       <h2 class="visually-hidden">Форма заказа меню</h2>
@@ -149,15 +149,15 @@
     </section>
   </main>
   <footer>
-    <a class="logo logo--white footer__logo" href="index.html">Здоровая мама</a>
-    <ul class="nav__list footer__nav">
-      <li class="nav__item"><a href="#reason" class="nav__link">Важность правильного питания</a></li>
-      <li class="nav__item"><a href="#features" class="nav__link">Почему мы?</a></li>
-      <li class="nav__item"><a href="#order-form" class="nav__link">Где заказать?</a></li>
+    <a class="link logo logo--white footer__logo" href="index.html">Здоровая мама</a>
+    <ul class="same-list nav__list footer__nav">
+      <li class="nav__item"><a href="#reason" class="link nav__link">Важность правильного питания</a></li>
+      <li class="nav__item"><a href="#features" class="link nav__link">Почему мы?</a></li>
+      <li class="nav__item"><a href="#order-form" class="link nav__link">Где заказать?</a></li>
     </ul>
-    <ul class="footer__conditions">
-      <li class="footer__conditions__item"><a href="#" class="footer__conditions__link">Политика конфиденциальности</a></li>
-      <li class="footer__conditions__item"><a href="#" class="footer__conditions__link">Условия онлайн-использования</a></li>
+    <ul class="same-list footer__conditions">
+      <li class="footer__conditions__item"><a href="#" class="link footer__conditions__link">Политика конфиденциальности</a></li>
+      <li class="footer__conditions__item"><a href="#" class="link footer__conditions__link">Условия онлайн-использования</a></li>
     </ul>
   </footer>
 </body>
