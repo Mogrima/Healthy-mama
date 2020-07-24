@@ -11,72 +11,78 @@
 </head>
 <body>
   <header class="header">
-    <a class="link logo header__logo" href="index.html">Здоровая мама</a>
-    <nav class="nav header__nav">
-      <button type="button"><span class="visually-hidden">открыть/закрыть меню</span></button>
-      <ul class="same-list nav__list">
-        <li class="nav__item"><a class="link" href="#reason" class="nav__link">Важность правильного питания</a></li>
-        <li class="nav__item"><a class="link" href="#features" class="nav__link">Почему мы?</a></li>
-        <li class="nav__item"><a class="link" href="#order-form" class="nav__link">Где заказать?</a></li>
-      </ul>
-    </nav>
+    <div class="header__wrapper">
+      <a class="link logo header__logo" href="index.html">Здоровая мама</a>
+      <nav class="nav header__nav">
+        <button class="nav__button" type="button"><span class="visually-hidden">открыть/закрыть меню</span></button>
+        <ul class="same-list nav__list">
+          <li class="nav__item"><a class="link" href="#reason" class="nav__link">Важность правильного питания</a></li>
+          <li class="nav__item"><a class="link" href="#features" class="nav__link">Почему мы?</a></li>
+          <li class="nav__item"><a class="link" href="#order-form" class="nav__link">Где заказать?</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <section class="promo">
-     <div class="promo__text">
-      <h1 class="promo__title">Доставка здорового питания для мам</h1>
-      <p class="promo__desc">Правильный и вкусный рацион для Вас и вашего ребенка</p>
-      <a href="#" class="link promo__button button">Оформить заказ</a>
-     </div>
-     <div class="promo__slider">
-       <ul class="same-list slider">
-         <li class="slider__item">
-           <input type="radio" name="toggle" id="expectant" checked="">
-           <label for="expectant">
-             <span>Для беременных</span>
-           </label>
-           <img class="slider__img" src="img/slider-banner-expectant.png" alt="Беременная девушка">
-         </li>
-         <li class="slider__item">
-          <input type="radio" name="toggle" id="nursing">
-           <label for="nursing">
-             <span>Для кормящих</span>
-           </label>
-           <img class="slider__img" src="img/slider-banner-nursing.png" alt="Девушка держит около груди младенца">
-         </li>
-         <li class="slider__item">
-          <input type="radio" name="toggle" id="safe-treats">
-           <label for="safe-treats">
-             <span>Безопасные лакомства</span>
-           </label>
-           <img class="slider__img" src="img/slider-banner-safe-treats.png" alt="Девушка есть зеленое яблоко">
-         </li>
-       </ul>
-       <div class="slider__controls">
-         <button class="slider__button slider__button--prev" type="button">
-           <span class="visually-hidden">Предыдущий слайд</span>
-         </button>
-         <button class="slider__button slider__button--next" type="button">
-           <span class="visually-hidden">Следующий слайд</span>
-         </button>
-       </div>
-     </div>
+      <div class="promo__wrapper">
+        <div class="promo__text">
+          <h1 class="promo__title">Доставка здорового питания для мам</h1>
+          <p class="promo__desc">Правильный и вкусный рацион для Вас и вашего ребенка</p>
+          <a href="#" class="link promo__button button">Оформить заказ</a>
+        </div>
+        <div class="promo__slider">
+          <ul class="same-list slider">
+            <li class="slider__item">
+              <input type="radio" name="toggle" id="expectant" checked="">
+              <label for="expectant">
+                <span>Для беременных</span>
+              </label>
+              <img class="slider__img" src="img/slider-banner-expectant.png" alt="Беременная девушка">
+            </li>
+            <li class="slider__item">
+              <input type="radio" name="toggle" id="nursing">
+              <label for="nursing">
+                <span>Для кормящих</span>
+              </label>
+              <img class="slider__img" src="img/slider-banner-nursing.png" alt="Девушка держит около груди младенца">
+            </li>
+            <li class="slider__item">
+              <input type="radio" name="toggle" id="safe-treats">
+              <label for="safe-treats">
+                <span>Безопасные лакомства</span>
+              </label>
+              <img class="slider__img" src="img/slider-banner-safe-treats.png" alt="Девушка есть зеленое яблоко">
+            </li>
+          </ul>
+          <div class="slider__controls">
+            <button class="slider__button slider__button--prev" type="button">
+              <span class="visually-hidden">Предыдущий слайд</span>
+            </button>
+            <button class="slider__button slider__button--next" type="button">
+              <span class="visually-hidden">Следующий слайд</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="reason" class="reason">
-      <div class="reason__text">
-        <h2 class="title title--white reason__title">Почему Вам нужно правильно питаться?</h2>
-        <ul class="same-list reason__list">
-          <li class="reason__item">Здоровый ребенок</li>
-          <li class="reason__item">Повышение иммунитета</li>
-          <li class="reason__item">Поддержание фигуры</li>
-          <li class="reason__item">Отстутствие вредных компонентов</li>
-          <li class="reason__item">Снижение нагрузки на органы пищеварения</li>
-        </ul>
-      </div>
-      <div class="reason__content">
-        <div class="reason__content-wrapper">
-          <p class="reason__doctor-name"><b>Иванова Надежда Александровна</b>
-            Сертифицированный диетолог</p>
+      <div class="reason__wrapper">
+        <div class="reason__text">
+          <h2 class="title title--white reason__title">Почему Вам нужно правильно питаться?</h2>
+          <ul class="same-list reason__list">
+            <li class="reason__item">Здоровый ребенок</li>
+            <li class="reason__item">Повышение иммунитета</li>
+            <li class="reason__item">Поддержание фигуры</li>
+            <li class="reason__item">Отстутствие вредных компонентов</li>
+            <li class="reason__item">Снижение нагрузки на органы пищеварения</li>
+          </ul>
+        </div>
+        <div class="reason__content">
+          <div class="reason__content-wrapper">
+            <p class="reason__doctor-name"><b>Иванова Надежда Александровна</b>
+              Сертифицированный диетолог</p>
+          </div>
         </div>
       </div>
     </section>
